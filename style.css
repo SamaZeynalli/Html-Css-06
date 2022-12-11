@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 85px;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .logo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2B2B2B;
+}
+
+.navbar nav ul li a::after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 4px;
+    background: #E2E2E2;
+    border-radius: 9px;
+    bottom: -50%;
+    left: 50%;
+    transform: translate(-50%);
+    }
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.menu button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.about img {
+    padding-top: 72px;
+    max-width: 1200px;
+}
+
+.sale {
+    display: flex;
+    padding-top: 103px;
+    gap: 33px;
+}
+
+.sale .shop .head {
+    display: flex;
+    gap: 24px;
+}
+
+.sale .shop .head img {
+    max-width: 40px;
+}
+
+.sale .shop .head p {
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 35px;
+    text-align: center;
+    color: #353535;
+}
+
+.sale .shop nav {
+    font-size: 23px;
+    line-height: 28px;
+    color: #ABABAB;
+    padding-top: 24px;
+}
+
+.light img {
+    padding-top: 129px;
+    max-width: 1200px;
+}
+
+.value {
+    display: flex;
+    padding-top: 90px;
+    padding-left: 58px;
+}
+
+.value .value-head {
+    flex: 1;
+}
+
+
+.value .value-head h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #353535;
+}
+
+.value .value-head  p {
+    padding-top: 24px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #898989;
+}
+
+.value .range {
+    flex: 1;
+}
+
+.value .range .percentage:not(last-child) {
+    margin-bottom: 31px;
+}
+
+.value .range .percentage p {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #353535;
+    padding-bottom: 31px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin: 134px auto 82px;
+}
+
+.pagination .blog {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #2B2B2B;
+}
+
+
+.pagination .vector {
+    display: flex;
+    gap: 34px;
+    transform: rotate(180deg);
+}
+
+.items {
+    display: flex;
+    gap: 41px;
+    width: (95%-82px);
+    max-width: (1200px-82px);
+    justify-content: center;
+    align-items: center;
+}
+
+.items .item .date {
+    text-align: center;
+    font-size: 19px;
+    line-height: 23px;
+    color: #9E9E9E;
+    margin: 20px auto 14px;
+}
+
+.items .item p {
+    text-align: center;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #303030;
+}
+
+.items .item a {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #303030;
+}
+
+.footer {
+    background: #000;
+    margin-top: 176px;
+}
+
+
+.footer .footer-width {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer .footer-width .logo img {
+    margin-top: 36px;
+}
+
+.footer .footer-width .footer-head {
+    display: flex;
+}
+
+.footer .footer-width .footer-head .footer-box {
+    flex: 1;
+}
+
+.footer .footer-width .footer-head .footer-box h3 {
+    margin: 47px auto 30px;
+    font-size: 26px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #E9E9E9;
+    font-weight: 700;
+}
+
+.footer .footer-width .footer-head .footer-box div {
+    margin-bottom: 16px;
+    font-size: 23px;
+    line-height: 28px;
+    color: #ABABAB;
+    font-weight: 400;
+}
+
